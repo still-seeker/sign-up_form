@@ -36,6 +36,10 @@ img {
     font-size: 14px;
 }
 
+.form-row label {
+    margin-bottom: 15px;
+}
+
 .submit {
     display: flex;
     flex-direction: column;
