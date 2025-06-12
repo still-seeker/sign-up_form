@@ -1,1 +1,5 @@
 
+.container {
+    background-image: url(background.jpg);
+    display: flex;
+}
