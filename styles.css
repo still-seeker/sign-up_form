@@ -7,21 +7,27 @@
 body {
   font-family: "Helvetica", "Arial", sans-serif;
   font-size: 16px;
-  line-height: 1.3;
 
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
+.intro {
+    line-height: 1.6;
+    font-size: clamp(16px, 2rem, 20px);
+}
+
 .intro, .main-form, .button-section {
   background-color: #F6F7F8;
-  border-radius: 3px;
   
   width: 80%;
   padding: 50px;
 }
 
+label {
+    margin-top: 20px;
+}
 
 .main-form {
     background-color: #000;
@@ -40,6 +46,22 @@ form {
 .left-side, .right-side {
     display: flex;
     flex-direction: column;
+}
+
+input[type='text'], 
+input[type='email'],
+input[type='tel'],
+input[type='password'] {
+    background-color: #FFFFFF;
+     border: 1px solid #D6D9DC;
+    border-radius: 3px;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px; border: 1px solid #D6D9DC;
+    border-radius: 3px;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
 }
 
 button {
