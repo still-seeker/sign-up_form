@@ -32,11 +32,6 @@ body {
     gap: 20px;
 }
 
-/* .spe {
-  font-size: 30px;
-  margin-bottom: 20px;
-} */
-
 form {
     display: flex;
     gap: 20px;
@@ -45,4 +40,24 @@ form {
 .left-side, .right-side {
     display: flex;
     flex-direction: column;
+}
+
+button {
+  font-size: 16px;
+  font-weight: bold;
+
+  color: #FFFFFF;
+  background-color: #596D48;
+
+  border: none;
+  border-radius: 3px;
+
+  padding: 10px 40px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #596D48;
 }
