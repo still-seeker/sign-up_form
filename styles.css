@@ -19,3 +19,17 @@ img {
     padding: 50px;
     margin: 0 0 40px 0; 
 }
+
+.form-row {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.submit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
