@@ -79,11 +79,11 @@ label {
 
 .main-form {
     background-color: #FFFFFF;
+    
 }
 
-.submit-section {
-    background-color: rgb(13, 13, 13);
-    gap: 20px;
+.button-section {
+    box-shadow: inset 0em 5px rgba(161, 159, 159, 0.2);
 }
 
 form {
