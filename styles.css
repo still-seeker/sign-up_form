@@ -25,7 +25,6 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; 
-    min-width: 700px;
 }
 
 .logo-side{
@@ -130,7 +129,7 @@ button {
   background-color: #5995DA;
 
   border: none;
-  border-radius: 3px;
+  border-radius: 10px;
 
   padding: 10px 40px;
   cursor: pointer;
@@ -140,4 +139,9 @@ button {
 a {
     text-decoration: none;
     color: #5995DA;
+}
+
+footer a {
+    color: wheat;
+    text-decoration-line: underline;
 }
