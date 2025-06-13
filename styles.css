@@ -14,6 +14,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: black;
 }
 
 .container {
@@ -30,8 +31,8 @@ body {
 .logo-side{
     display: flex;
     flex-direction: column;
-    gap: 384px;
-
+    gap: 400px;
+    color: white;
     width: 25%;
 }
 
@@ -39,7 +40,7 @@ body {
     display: flex;
     flex-direction: row-reverse;
     background-color: rgb( 0 0 0 );
-    opacity: 0.5;
+    opacity: 0.4;
     justify-content: center;
     align-items: center;
     font-size: 100px;
@@ -48,6 +49,7 @@ body {
 
 img {
     width: 100px;
+    color: white;
 }
 
 .form-side {
@@ -58,6 +60,7 @@ img {
 .intro {
     line-height: 1.6;
     font-size: clamp(16px, 2rem, 20px);
+    background-color: gray;
 }
 
 .intro, .main-form, .button-section {
@@ -75,18 +78,18 @@ label {
 }
 
 .main-form {
-    background-color: #000;
+    background-color: #FFFFFF;
 }
 
 .submit-section {
-    background-color: gray;
+    background-color: rgb(13, 13, 13);
     gap: 20px;
-    min-height: 200px;
 }
 
 form {
     display: flex;
     gap: 80px;
+    background-color: #FFFFFF;
 }
 
 
