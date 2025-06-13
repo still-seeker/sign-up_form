@@ -1,3 +1,8 @@
+@font-face {
+    font-family: norse-bold;
+    src: url(Norse-Bold.otf);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -7,8 +12,8 @@
 body {
   font-family: "Helvetica", "Arial", sans-serif;
   font-size: 16px;
-  background-image: url(background.jpg);
-  background-size: auto ;
+  background-image: url(background2.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center; 
   display: flex;
@@ -16,17 +21,28 @@ body {
   align-items: center;
 }
 
+
 .container {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.logo-side{
+    display: flex;
+    flex-direction: column;
+    gap: 350px;
+}
+
 .logo {
     display: flex;
     flex-direction: row-reverse;
-    background-color: rgba( 0 0 0 );
-    justify-content: stretch;
+    background-color: rgb( 0 0 0 );
+    opacity: 0.5;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    font-family: norse-bold;
 }
 
 img {
@@ -87,7 +103,7 @@ button {
   font-weight: bold;
 
   color: #FFFFFF;
-  background-color: #596D48;
+  background-color: #5995DA;
 
   border: none;
   border-radius: 3px;
@@ -99,5 +115,5 @@ button {
 
 a {
     text-decoration: none;
-    color: #596D48;
+    color: #5995DA;
 }
